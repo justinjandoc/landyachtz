@@ -14,6 +14,9 @@
 </head>
 <body>
 
+<!--
+original: https://landyachtz.com/
+-->
 
 <div class="ui center aligned announcementbar container">
   <a class="fitted item" style="color: black">FREE SHIPPING ON ALL US ORDERS OVER $100</a>
@@ -28,7 +31,7 @@
           alt="logo">
     </a>
     <!-- make these dropdowns -->
-    <div class="ui dropdown topleft fitted item">
+    <div class="ui simple dropdown topleft fitted item">
       SHOP
       <div class="ui grid menu"> <!-- dropdown grid> -->
         <div class="item"><img
@@ -42,7 +45,7 @@
       </div>
     </div>
 
-    <div class="ui dropdown topleft fitted item">
+    <div class="ui simple dropdown topleft fitted item">
       EXPLORE
       <div class="ui grid menu"> <!-- dropdown grid> -->
         <div class="item"><img
@@ -55,7 +58,6 @@
         <div class="item">Videos</div>
       </div>
     </div>
-
 
     <a class="fitted right item" style="padding:12px">
       <img
@@ -76,9 +78,27 @@
   </div>
 </div>
 
-<!--
-https://cdn.shopify.com/s/files/1/0546/4896/3257/files/ly-logo_100x@2x.png?v=1614391187
--->
+
+<div class="fitted item">
+  <video id="ly-bg" autoplay muted loop>
+    <source
+        src="https://cdn.shopify.com/s/files/1/0546/4896/3257/files/PricillaBoardsThumbnail.mp4?v=1642705590"
+        type="video/mp4">
+  </video>
+</div>
+<div class="ui one column center grid container" id="artist-shop">
+  <div class="column">
+    <div class="fitted item" id="artist-series">
+      ARTIST SERIES
+    </div>
+    <div class="fitted item" style="font-size: 23.4px" style="padding-top: 100px">
+      PRISCILLA MORENO
+    </div>
+    <div class="fitted item">
+      SHOP NOW
+    </div>
+  </div>
+</div>
 
 <script>
   $('.ui.dropdown')
